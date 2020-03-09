@@ -6,7 +6,7 @@
 
   Added to the program:
     - Commandline arguments
-    - Name of common ports' version
+    - Name of common ports' version (Just a few port services added)
   Usage:
     $ go build main.go
     $ ./main <address>
