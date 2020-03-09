@@ -19,7 +19,7 @@ import (
 
 func main() {
 	var wg sync.WaitGroup // synchronized counter
-	for i := 1; i <= 65535; i++ {
+	for i := 1; i <= 65535; i++ { // decided to increase the range for experimental purposes
 		wg.Add(1) // increment the counter each time it creates a goroutine to scan a port
 		go func(j int) {
 			defer wg.Done() // decrements the counter whenever one unit of work has been performed
