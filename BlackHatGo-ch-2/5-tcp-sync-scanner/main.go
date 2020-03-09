@@ -2,7 +2,7 @@
   To avoid inconsistencies we can use a pool of goroutines to manage
   the concurrent work being performed.
   We can create a number of worker goroutines as a resource pool with a for loop.
-  The we will use a channel on our main() function to provide work.
+  Then we will use a channel on our main() function to provide work.
   To start we create a new program that has 100 workers, consumes a
   channel of int, and prints them to the screen.
   We still use the WaitGroup to block execution.
