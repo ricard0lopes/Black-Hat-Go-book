@@ -1,6 +1,6 @@
 /*
   FINAL IMPROVEMENTS:
-  In order to order the ports before printing w need to use a separate thread
+  In order to sort the ports before printing w need to use a separate thread
   to pass the result of the port scan back to the main thread.
   A benefit of this modificaton is that we can remove the dependency of a WaitGroup entirely.
 
